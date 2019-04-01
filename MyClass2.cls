@@ -1,5 +1,7 @@
 public class MyClass {
 
+
+
 	public static void foo1() {
 		for (Integer i=0; i<10; i++) {
 			//List<SObject> items = [Select Id, Name FROM account LIMIT 10];
