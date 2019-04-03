@@ -3,7 +3,6 @@ public class MyClass {
 
 	public static void foo1() {
 		for (Integer i=0; i<10; i++) {
-			List<SObject> items = [Select Id, Name FROM account LIMIT 10];
 
 		}
 		items = [Select Id, Name FROM account WHERE Name ='abc'];
@@ -16,7 +15,7 @@ public class MyClass {
 			//if ([Select Id, Name FROM account LIMIT 10]) {
 			//}
 		}
-		[Select Id, Name FROM account LIMIT 10];
+		
 	}
 	
 	public void negativeScenario() {
