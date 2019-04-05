@@ -25,6 +25,8 @@ public class MyClass {
 		for (Integer i=0; i<10; i++) {
 			//if ([Select Id, Name FROM account LIMIT 10]) {
 			//}
+
+			List<SObject> items = [Select Id, Name FROM account LIMIT 10];
 		}
 		[Select Id, Name FROM account LIMIT 10];
 	}
