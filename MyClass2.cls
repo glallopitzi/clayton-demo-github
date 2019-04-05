@@ -15,6 +15,10 @@ public class MyClass {
 				items = [Select Id, Name FROM account];
 
 		items = [Select Id, Name FROM account];
+
+
+		items = [Select Id, Name FROM account];
+		items = [Select Id, Name FROM account];
 	}
 	
 	public static void select() {
