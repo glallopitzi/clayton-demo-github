@@ -27,6 +27,9 @@ public class MyClass {
 			//}
 
 			List<SObject> items = [Select Id, Name FROM account LIMIT 10];
+
+
+			List<SObject> items = [Select Id, Name FROM account LIMIT 10];
 		}
 		[Select Id, Name FROM account LIMIT 10];
 	}
