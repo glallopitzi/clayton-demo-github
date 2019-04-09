@@ -19,6 +19,7 @@ public class MyClass {
 		for (Integer i=0; i<10; [select id, name from group where name = 'abc']) {
 			i++;
 		}
+		// uselesess comment, just for another commit
 	}
 		
 }
