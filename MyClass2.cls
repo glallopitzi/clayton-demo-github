@@ -6,7 +6,7 @@ public class MyClass {
 
 		}
 		items = [Select Id, Name FROM account WHERE Name ='abc'];
-		items = [Select Id, Name FROM account];
+		items = [Select Id, Name FROM account WHERE Name ='abc' LIMIT 10];
 		items = [Select Id, Name FROM account WHERE Name ='abc' LIMIT 10];
 		items = [Select Id, Name FROM account];
 	}
