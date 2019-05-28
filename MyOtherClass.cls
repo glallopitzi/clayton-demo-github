@@ -1,8 +1,10 @@
-public without sharing class MyClass {
+public without sharing class MyOtherClass {
 
-     public void violationExpected(){
-             String malicious = '32423';
-             Account account = [SELECT id,AccountId FROM Contact WHERE Id = :malicious LIMIT 1];
+     @AuraEnabled
+     public void violationExpected(String malicious){
+          //String malicious = '32423';
+          Account account = [SELECT id,AccountId FROM Contact WHERE Id = :malicious LIMIT 1];
+          List<Account> items = [Select * FROM account];
       }
 
 
