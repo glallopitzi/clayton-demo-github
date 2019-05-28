@@ -7,7 +7,7 @@ public inherited sharing class MyOtherClass {
           // A comment
           // Another comment
           String p = 'a string';
-          List<Account> items = [SELECT * FROM account]; // Inline comment
+          List<Account> items = [SELECT * FROM account WHERE id = 1 LIMIT 10]; // Inline comment
       }
 
 
