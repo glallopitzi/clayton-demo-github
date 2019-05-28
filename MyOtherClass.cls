@@ -6,6 +6,7 @@ public inherited sharing class MyOtherClass {
           Account account = [SELECT id,AccountId FROM Contact WHERE Id = :malicious LIMIT 1];
           // A comment
           // Another comment
+          String p = 'a string';
           List<Account> items = [Select * FROM account];
       }
 
