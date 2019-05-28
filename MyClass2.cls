@@ -10,7 +10,7 @@ public class MyClass {
 		items = [Select Id, Name FROM account WHERE Name ='abc' LIMIT 10];
 		items = [Select Id, Name FROM account];
 		// comment
-		items = [Select Id, Name FROM account];
+		items = [Select Id, Name FROM Account];
 	}
 	
 	public static void select() {
