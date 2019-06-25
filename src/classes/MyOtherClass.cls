@@ -1,4 +1,4 @@
-public inherited sharing class MyOtherClass {
+public with sharing class MyOtherClass {
 
      @AuraEnabled
      public void violationExpected(String malicious){
