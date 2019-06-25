@@ -1,11 +1,10 @@
-public class MyClass {
+public with sharing class MyClass2 {
 
 	public static void foo1() {
 		for (Integer i=0; i<10; i++) {
 			List<SObject> items = [Select Id, Name FROM account LIMIT 10];
+
 		}
-		items = [Select Id, Name FROM account WHERE Name ='abc'];
-		items = [Select Id, Name FROM account WHERE Name ='abc' LIMIT 10];
 	}
 	
 	public static void select() {
