@@ -5,7 +5,7 @@
 
 
 
-public inherited sharing class MyOtherClass {
+public without sharing class MyOtherClass {
 
      @AuraEnabled
      public void violationExpected(String malicious){
