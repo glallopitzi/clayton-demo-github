@@ -8,7 +8,9 @@ public with sharing class MyOtherClass {
           // Another comment
           String p = 'a string';
           List<Account> items = [SELECT * FROM account WHERE id = 1 LIMIT 10]; // Inline comment
-           List<Account> items = [SELECT * FROM account]; 
+          List<Account> items = [SELECT * FROM account]; 
+          
+          List<Account> items = [SELECT * FROM account]; 
       }
 
 
