@@ -15,6 +15,12 @@ public with sharing class MyClass2 {
 		}
 	}
 	
+	public static void foo2() {
+		for (Integer i=0; i<10; i++) {
+			List<SObject> accounts2 = [Select Id, Name FROM account];			
+		}
+	}
+	
 	public static void select() {
 		for (Integer i=0; i<10; i++) {
 			//if ([Select Id, Name FROM account LIMIT 10]) {
