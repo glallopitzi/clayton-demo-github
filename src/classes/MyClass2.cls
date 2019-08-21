@@ -10,6 +10,7 @@ public with sharing class MyClass2 {
 			List<SObject> items2 = [Select Id, Name FROM account];
 			List<SObject> items3 = [Select Id, Name FROM account];
 						List<SObject> items4 = [Select Id, Name FROM account];
+			List<SObject> items5 = [Select Id, Name FROM account];
 			
 		}
 	}
@@ -24,6 +25,7 @@ public with sharing class MyClass2 {
 		for (Integer i=0; i<10; i++) {
 			List<SObject> items = [Select Id, Name FROM account];	
 			List<SObject> items = [Select Id, Name FROM account];
+			List<SObject> accounts = [Select Id, Name FROM account];
 		}
 	}
 	
