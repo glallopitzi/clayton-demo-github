@@ -11,6 +11,8 @@ public with sharing class MyOtherClass {
           List<Account> items = [SELECT * FROM account]; 
           
           List<Account> items = [SELECT * FROM account]; 
+          
+                    List<Account> items = [SELECT * FROM account]; 
       }
 
 
