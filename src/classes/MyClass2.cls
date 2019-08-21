@@ -7,6 +7,7 @@ public with sharing class MyClass2 {
 			List<SObject> items = [Select Id, Name FROM account];			
 			List<SObject> items = [Select Id, Name FROM account];
 			List<SObject> items = [Select Id, Name FROM account];
+						List<SObject> items = [Select Id, Name FROM account];
 			
 		}
 	}
