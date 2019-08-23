@@ -5,7 +5,7 @@ public without sharing class Foo {
     }
     
     void foo2() {
-        HttpRequest req = new HttpRequest();
-        req.setEndpoint('http://localhost:com');
+        HttpRequest req2 = new HttpRequest();
+        req2.setEndpoint('http://localhost:com');
     }
 }
