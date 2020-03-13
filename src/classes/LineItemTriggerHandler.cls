@@ -1,4 +1,4 @@
-public class LineItemTriggerHandler {
+public without sharing class LineItemTriggerHandler {
 		
 	
 
@@ -21,6 +21,7 @@ public class LineItemTriggerHandler {
 		Set<Id> orderIds = new Set<Id>();
 		for (Line_Item__c i : items) {
 			orderIds.add(i.Order__c);
+			update i;
 		}
 
 		String p = 'yeah';		
