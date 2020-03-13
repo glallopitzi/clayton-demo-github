@@ -83,6 +83,7 @@ private class LineItemTriggerTest {
 			List<Lot__c> someLots = new List<Lot__c>();
 			for (Integer i=0; i<TEST_VOLUMES_LINE_ITEMS_PER_PURCHASE; i++) {
 				someLots.add(allTheLots[i]);
+				update allTheLots[i];
 			}
 			
 			List<Line_Item__c> largeBulk = TestDataFactory.createLineItems(orders, someLots, 1);
