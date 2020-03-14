@@ -23,6 +23,7 @@ public class TestDataFactory {
 		for (Integer i=0; i<howMany; i++) {
 			Account a = new Account(name = TEST_ACCOUNT_NAME);
 			accounts.add(a);
+			insert a;
 		}
 		return accounts;	
 	}
