@@ -1,17 +1,10 @@
-public with sharing class MyClass2 {
+public class MyClass2 {
 
 	public static void foo1() {
 		for (Integer i=0; i<10; i++) {
 			List<SObject> items = [Select Id, Name FROM account LIMIT 10];
 
-			List<SObject> items = [Select Id, Name FROM account];			
-			List<SObject> items = [Select Id, Name FROM account];
-			List<SObject> items = [Select Id, Name FROM account];
-			List<SObject> items2 = [Select Id, Name FROM account];
-			List<SObject> items3 = [Select Id, Name FROM account];
-			List<SObject> items4 = [Select Id, Name FROM account];
-			List<SObject> accounts = [Select Id, Name FROM account];
-			update i;
+			upsert i;
 		}
 	}
 	
