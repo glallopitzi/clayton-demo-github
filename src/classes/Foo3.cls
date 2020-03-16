@@ -1,4 +1,4 @@
-	public class Foo2 {
+public class Foo3 {
     void foo() {
         
         
